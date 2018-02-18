@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6851da3f-1d9c-4428-98cc-f97650dad315" name="Default" comment="" />
+    <list default="true" id="6851da3f-1d9c-4428-98cc-f97650dad315" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/StringKata.java" afterPath="$PROJECT_DIR$/src/main/java/StringKata.java" />
+      <change beforePath="$PROJECT_DIR$/target/classes/StringKata.class" afterPath="$PROJECT_DIR$/target/classes/StringKata.class" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -12,16 +16,16 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="StringKata.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/StringKata.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-814">
-              <caret line="12" column="60" lean-forward="true" selection-start-line="12" selection-start-column="60" selection-end-line="12" selection-end-column="60" />
+            <state relative-caret-position="240">
+              <caret line="16" column="40" lean-forward="false" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#710#719#0" expanded="true" />
-                <element signature="e#1460#1469#0" expanded="true" />
+                <element signature="e#703#712#0" expanded="true" />
+                <element signature="e#1453#1462#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -30,8 +34,8 @@
       <file leaf-file-name="StringKataTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/StringKataTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+            <state relative-caret-position="75">
+              <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -40,6 +44,9 @@
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
@@ -89,12 +96,12 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="281" />
+  <component name="ProjectFrameBounds">
     <option name="y" value="29" />
     <option name="width" value="1680" />
     <option name="height" value="964" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -110,6 +117,10 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -137,29 +148,12 @@
             </path>
             <path>
               <item name="stringcalculatorkata" type="b2602c69:ProjectViewProjectNode" />
-              <item name="stringcalculatorkata" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="stringcalculatorkata" type="b2602c69:ProjectViewProjectNode" />
-              <item name="stringcalculatorkata" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="stringcalculatorkata" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
-      <pane id="AndroidView" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -188,7 +182,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.StringKataTest.WhenNumberAsDelimiterIgnoreAndReturnSum">
+  <component name="RunManager" selected="JUnit.StringKataTest">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -330,18 +324,6 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="stringcalculatorkata" />
-      <envs />
-    </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
       <option name="USE_SOCKET_TRANSPORT" value="true" />
       <option name="SERVER_MODE" value="false" />
@@ -382,6 +364,18 @@
       <option name="PROGRAM_PARAMETERS" />
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="stringcalculatorkata" />
+      <envs />
+    </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="JUnit.StringKataTest.WhenMultipleDelimitersReturnSum" />
       <item index="1" class="java.lang.String" itemvalue="JUnit.StringKataTest.WhenMultipleLongDelimitersReturnSum" />
@@ -391,8 +385,8 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.StringKataTest.WhenNumberAsDelimiterIgnoreAndReturnSum" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.StringKataTest" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.StringKataTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.StringKataTest.WhenNumberAsDelimiterIgnoreAndReturnSum" />
         <item index="2" class="java.lang.String" itemvalue="JUnit.StringKataTest.WhenNumberGreaterThan1000IgnoreAndReturnSum" />
         <item index="3" class="java.lang.String" itemvalue="JUnit.StringKataTest.WhenMultipleLongDelimitersReturnSum" />
         <item index="4" class="java.lang.String" itemvalue="JUnit.StringKataTest.WhenMultipleDelimitersReturnSum" />
@@ -412,44 +406,45 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1518657812341</updated>
-      <workItem from="1518657816497" duration="20141000" />
+      <workItem from="1518657816497" duration="20307000" />
+      <workItem from="1518938149472" duration="2483000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="StringKataTest_WhenNumberAsDelimiterIgnoreAndReturnSum - 2018.02.16 at 10h 42m 04s.xml">
+    <history-entry file="StringKataTest - 2018.02.19 at 10h 23m 36s.xml">
+      <configuration name="StringKataTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StringKataTest_WhenNumberAsDelimiterIgnoreAndReturnSum - 2018.02.18 at 18h 31m 25s.xml">
       <configuration name="StringKataTest.WhenNumberAsDelimiterIgnoreAndReturnSum" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StringKataTest_WhenNumberAsDelimiterIgnoreAndReturnSum - 2018.02.16 at 11h 06m 39s.xml">
+    <history-entry file="StringKataTest_WhenNumberAsDelimiterIgnoreAndReturnSum - 2018.02.18 at 18h 39m 29s.xml">
       <configuration name="StringKataTest.WhenNumberAsDelimiterIgnoreAndReturnSum" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StringKataTest_WhenNumberAsDelimiterIgnoreAndReturnSum - 2018.02.16 at 11h 12m 58s.xml">
+    <history-entry file="StringKataTest_WhenNumberAsDelimiterIgnoreAndReturnSum - 2018.02.18 at 18h 42m 27s.xml">
       <configuration name="StringKataTest.WhenNumberAsDelimiterIgnoreAndReturnSum" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StringKataTest_WhenNumberAsDelimiterIgnoreAndReturnSum - 2018.02.16 at 13h 17m 06s.xml">
+    <history-entry file="StringKataTest_WhenNumberAsDelimiterIgnoreAndReturnSum - 2018.02.18 at 18h 43m 16s.xml">
       <configuration name="StringKataTest.WhenNumberAsDelimiterIgnoreAndReturnSum" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StringKataTest_WhenNumberAsDelimiterIgnoreAndReturnSum - 2018.02.16 at 13h 50m 39s.xml">
+    <history-entry file="StringKataTest_WhenNumberAsDelimiterIgnoreAndReturnSum - 2018.02.18 at 18h 43m 41s.xml">
       <configuration name="StringKataTest.WhenNumberAsDelimiterIgnoreAndReturnSum" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StringKataTest_WhenNumberAsDelimiterIgnoreAndReturnSum - 2018.02.16 at 14h 05m 38s.xml">
+    <history-entry file="StringKataTest_WhenNumberAsDelimiterIgnoreAndReturnSum - 2018.02.18 at 18h 43m 55s.xml">
       <configuration name="StringKataTest.WhenNumberAsDelimiterIgnoreAndReturnSum" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StringKataTest_WhenNumberAsDelimiterIgnoreAndReturnSum - 2018.02.16 at 14h 06m 47s.xml">
+    <history-entry file="StringKataTest_WhenNumberAsDelimiterIgnoreAndReturnSum - 2018.02.18 at 18h 44m 04s.xml">
       <configuration name="StringKataTest.WhenNumberAsDelimiterIgnoreAndReturnSum" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StringKataTest_WhenNumberAsDelimiterIgnoreAndReturnSum - 2018.02.16 at 14h 07m 44s.xml">
+    <history-entry file="StringKataTest_WhenNumberAsDelimiterIgnoreAndReturnSum - 2018.02.18 at 18h 46m 38s.xml">
       <configuration name="StringKataTest.WhenNumberAsDelimiterIgnoreAndReturnSum" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StringKataTest_WhenNumberAsDelimiterIgnoreAndReturnSum - 2018.02.16 at 14h 07m 52s.xml">
-      <configuration name="StringKataTest.WhenNumberAsDelimiterIgnoreAndReturnSum" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StringKataTest_WhenNumberAsDelimiterIgnoreAndReturnSum - 2018.02.16 at 14h 16m 36s.xml">
+    <history-entry file="StringKataTest_WhenNumberAsDelimiterIgnoreAndReturnSum - 2018.02.18 at 18h 47m 55s.xml">
       <configuration name="StringKataTest.WhenNumberAsDelimiterIgnoreAndReturnSum" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20141000" />
+    <option name="totallyTimeSpent" value="22790000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -461,7 +456,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="32" width="1680" height="964" extended-state="6" />
+    <frame x="0" y="29" width="1680" height="964" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -472,25 +467,25 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32967034" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30969268" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12884161" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32978722" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24969475" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25274727" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3995272" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3995272" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -501,11 +496,33 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="19" />
+      <option name="time" value="29" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/StringKata.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#703#712#0" expanded="true" />
+            <element signature="e#1453#1462#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/StringKataTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
@@ -518,7 +535,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -526,7 +542,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="186">
           <caret line="2009" column="0" lean-forward="false" selection-start-line="2009" selection-start-column="0" selection-end-line="2009" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -534,7 +549,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="26">
           <caret line="194" column="102" lean-forward="false" selection-start-line="194" selection-start-column="102" selection-end-line="194" selection-end-column="102" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -542,14 +556,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/StringKataTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+        <state relative-caret-position="75">
+          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -558,12 +571,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/StringKata.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-814">
-          <caret line="12" column="60" lean-forward="true" selection-start-line="12" selection-start-column="60" selection-end-line="12" selection-end-column="60" />
+        <state relative-caret-position="240">
+          <caret line="16" column="40" lean-forward="false" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#710#719#0" expanded="true" />
-            <element signature="e#1460#1469#0" expanded="true" />
+            <element signature="e#703#712#0" expanded="true" />
+            <element signature="e#1453#1462#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -7,10 +7,9 @@ import java.util.regex.Pattern;
 public class StringKata {
 
     public int add (String numbersList) throws Exception {
-       // String result = extractDelimiters(numbersList);
 
-
-        List<Integer> numbers = extractNumbers(numbersList);
+        String result = extractDelimiters(numbersList);
+        List<Integer> numbers = extractNumbers(result);
         validateNegativeNumbers(numbers);
         List<Integer> smallerNumbers = getNumbersLessThan1000(numbers);
 
@@ -23,6 +22,7 @@ public class StringKata {
 
     public List<Integer> extractNumbers (String numbersList) {
 
+
         String digitsFetch = "-?\\d+";
 
         List<Integer> numbers = new ArrayList<Integer>();
@@ -32,7 +32,7 @@ public class StringKata {
 
         while (matcher.find()) {
 
-            int number = Integer.parseInt(matcher.group(1));
+            int number = Integer.parseInt(matcher.group(0));
             numbers.add(number);
         }
         return numbers;
@@ -72,20 +72,16 @@ public class StringKata {
         return smallerNumbers;
     }
 
-//    public String extractDelimiters (String numbersList) {
-//
-//        String delimitersFetch = "\\[(.+?)\\]";
-//        //String[] result= new String[0];
-//        Pattern pattern = Pattern.compile(delimitersFetch);
-//        Matcher matcher = pattern.matcher(numbersList);
-//
-//        String result = ",|\\n";
-//        while (matcher.find()) {
-//            //System.out.println(matcher.group());
-//             result =  result + Pattern.quote(matcher.group(1));
-//
-//        }
-//        return result.toString();
-//    }
+    public String extractDelimiters (String numbersList) {
+
+        String delimitersFetch = "\\[(.*?)\\]";
+        Pattern pattern = Pattern.compile(delimitersFetch);
+        Matcher matcher = pattern.matcher(numbersList);
+
+        while (matcher.find()) {
+            numbersList = numbersList.replace(matcher.group(1),"#");
+        }
+        return numbersList;
+    }
 
 }
